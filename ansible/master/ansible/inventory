@@ -1,4 +1,2 @@
 [web]
-host0[1:2] ansible_user=root
-[db]
-host03 ansible_user=root
+34.250.74.140 ansible_user=ec2-user

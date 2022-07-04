@@ -1,4 +1,0 @@
-[web]
-host0[1:2] ansible_user=root
-[db]
-host03 ansible_user=root
