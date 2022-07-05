@@ -11,7 +11,7 @@
     dest: /etc/init.d/springrest
     state: link
     owner: ec2-user
-    mode: 500
+    mode: "0500"
 - name: Service
   vars:
     ansible_user: ec2-user
