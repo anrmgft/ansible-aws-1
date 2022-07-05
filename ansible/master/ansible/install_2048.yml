@@ -1,7 +1,4 @@
 ---
-- hosts: web
-  become: true
-  tasks:
     - name: Install Apache http
       yum: name=httpd state=present update_cache=yes
       become: true
