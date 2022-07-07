@@ -21,6 +21,7 @@
          assign_public_ip: yes
          instance_tags:
            Name: ansibleInstance
+           APP: vue2048
       register: ec2
 
     - name: Add new instance to host group
